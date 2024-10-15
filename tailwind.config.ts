@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        default: "var(--border-radius)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary-color)",
+        primaryDark: "var(--primary-color-dark)",
       },
     },
   },
